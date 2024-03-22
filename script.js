@@ -73,7 +73,7 @@ function waitAndResponce(inputText) {
     switch (inputText.toLowerCase().trim()) {
         case "intro":
             setTimeout(() => {
-                sendTextMessage("Hello there 👋🏻,<br><br>My name is <span class='bold'><a class='alink'>Anmol Jain</a>.</span><br><br>I am a Information Technology student at <span class='bold'>College of engineering roorkee 👨🏻‍💻📚</span><br><br>I am eager to hear about potential career opportunities, so I would be pleased to chat about job openings in the engineering sphere.<br><br>Send <span class='bold'>'start'</span> to know more about me.<br>");
+                sendTextMessage("Hello there 👋🏻,<br><br>I intent to make a long-term career in the field of Web Development and work with professional organizations. Seeking a role in a MNC where I can upgrade my technical skills. <br><br>Send <span class='bold'>'start'</span> to know more about me.<br>");
             }, 2000);
             break;
         case "start":
@@ -87,7 +87,7 @@ function waitAndResponce(inputText) {
             break;
 
         case "education":
-            sendTextMessage("I am currently pusuing B.Tech degree in Information Technology from College of Engineering Roorkee affiliated to Uttarakhand Technical University<br>Passing Year : 2024");
+            sendTextMessage("I am currently pusuing B.Tech degree in Information Technology from College of Engineering Roorkee affiliated to Uttarakhand Technical University<br>Passing Year : 2024 <br><br> SVM Inter College, Intermediate Education <br>2019-2020, PCM, Saharanpur, Uttar Pradesh <br><br>SVM Inter College, High School <br> 2017-2018, Saharanpur, Uttar Pradesh ");
             break;
 
         case "address":
@@ -97,7 +97,7 @@ function waitAndResponce(inputText) {
             clearChat();
             break;
         case "about":
-            sendTextMessage("🛠️💻 This portfolio website is built using HTML, CSS and JavaScript from SCRATCH!<br><br>👨🏻‍💻 Designed and Developed by <a class='alink' target='_blank' ><span class='bold'>Anmol Jain</a> with ❤️</span>");
+            sendTextMessage("🛠️💻 This portfolio website is built using HTML, CSS and JavaScript<br><br>👨🏻‍💻 Designed and Developed by <a class='alink' target='_blank' ><span class='bold'>Anmol Jain</a> with ❤️</span>");
             break;
         case "contact":
             sendTextMessage(contactString);
